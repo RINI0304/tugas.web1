@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: #333;
+    padding: 10px 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #555;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile {
+    border-top: 2px solid #4CAF50;
+    padding-top: 20px;
+}
+
+.profile h2 {
+    color: #4CAF50;
+}
+
+.profile p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.profile1 {
+    width: 60%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border: 5px solid #51bd5f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main .profile1 p {
+    text-align: center;
+}
+
+.profile1 h1 {
+    text-align: center; /* Center the heading */
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 150px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/* Bagian Galeri */
+.galery {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Menambahkan jarak antar gambar */
+    flex-wrap: wrap; /* Membuat gambar tetap rapi saat layar mengecil */
+    padding: 20px;
+}
+
+.foto-galery {
+    width: 200px;
+    height: 200px; /* Ukuran gambar yang seragam */
+    object-fit: cover; /* Menjaga proporsi gambar dan memotong sisanya */
+    border: 2px solid #ddd; /* Menambahkan border di sekitar gambar */
+    border-radius: 5px; /* Membuat sudut gambar sedikit membulat */
+    transition: transform 0.3s ease; /* Animasi saat hover */
+}
+
+.foto-galery:hover {
+    transform: scale(1.05); /* Efek zoom saat gambar di-hover */
+}
+
+p {
+    text-align: start;
+}
+
+.table {
+    text-align: center;
+}
+
+.Kontak h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Kontak table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.Kontak table td {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ddd;
+}
+
+.Kontak table td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.Kontak table td a:hover {
+    text-decoration: underline;
+}
+
+main .profile p {
+    text-align: center;
+}
+
+.profile h1 {
+    text-align: center; /* Center the heading */
+}
+
+main .profile p {
+    text-align: center;
+}
+
+.profile h1 {
+    text-align: center; /* Center the heading */
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 200px;
+    height: 150x;
+    border-radius: 50%;}
+
+.container{
+
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*kontak kami*/
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    text-align: center;
+}
